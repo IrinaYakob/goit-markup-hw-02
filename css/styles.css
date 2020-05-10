@@ -1,3 +1,35 @@
-/* цвет основного текста #212121*/
-/* вторичный цвет текста#757575*/
-/* белый цвет текста #FFFFFF*/
+body{
+    background-color: #E5E5E5;
+    color: #757575;
+}
+.list{
+    list-style: none;
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста#757575 */
+/* белый цвет текста #FFFFFF */
+/* акцент #2196F3 */
+/* основной цвет фона  #E5E5E5*/
+/* вторичный цвет фона #F5F4FA */
+.logo-web{
+    color: #2196F3;
+}
+.logo-studio{
+    color: #000;
+}
+
+/* Site-nav */
+.site-nav .link{
+    color: #212121;
+
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #2196F3;
+}
+
+.section-title{
+    color: #212121;
+}
