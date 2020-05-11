@@ -1,17 +1,30 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста#757575 */
+/* белый цвет текста #FFFFFF */
+/* акцент #2196F3 */
+/* основной цвет фона #FFFFFF*/
+/* вторичный цвет фона #F5F4FA */
+
+:root{
+  --primary-text-color: #757575
+  --title-text-color:  #212121
+  --accent-color:#2196F3
+  --background-color:#FFFFFF
+  --
+}
+  
+
 body{
-    background-color: #E5E5E5;
+
+    background-color:#FFFFFF ;
     color: #757575;
 }
 .list{
     list-style: none;
 }
 
-/* цвет основного текста #212121 */
-/* вторичный цвет текста#757575 */
-/* белый цвет текста #FFFFFF */
-/* акцент #2196F3 */
-/* основной цвет фона  #E5E5E5*/
-/* вторичный цвет фона #F5F4FA */
+
+
 .logo-web{
     color: #2196F3;
 }
@@ -21,7 +34,7 @@ body{
 
 /* Site-nav */
 .site-nav .link{
-    color: #212121;
+    color:#212121;
 
 }
 
@@ -30,6 +43,27 @@ body{
     color: #2196F3;
 }
 
+/* contacts */
+.contacts .link{
+    color: #757575;
+}
+.contacts .link:hover,
+.contacts .link:focus{
+    color: #2196F3
+    ;
+}
+    
+
+/* hero */
+.hero-title{
+    color: #FFFFFF;
+}
+/* section */
 .section-title{
     color: #212121;
+}
+
+/* fuature */
+.fuature-title{
+    color:  #212121;
 }
