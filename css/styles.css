@@ -4,20 +4,25 @@
 /* акцент #2196F3 */
 /* основной цвет фона #FFFFFF*/
 /* вторичный цвет фона #F5F4FA */
-
+/* акцент заливки фона rgba(47, 48, 58, 0.8) */
+/* фоновый цвет */
+/* цвет строк адреса */
 :root{
-  --primary-text-color: #757575
-  --title-text-color:  #212121
-  --accent-color:#2196F3
-  --background-color:#FFFFFF
-  --
+  --primary-text-color: #757575;
+  --title-text-color:  #212121;
+  --accent-color:#2196F3;
+  --background-color:#FFFFFF;
+  --accent-bg-color: rgba(47, 48, 58, 0.8);
+  --background-footer-color: #2F303A;
+  --text-adress-color: rgba(255, 255, 255, 0.6);
 }
   
 
 body{
 
-    background-color:#FFFFFF ;
-    color: #757575;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+   
 }
 .list{
     list-style: none;
@@ -26,44 +31,76 @@ body{
 
 
 .logo-web{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logo-studio{
-    color: #000;
+    color: var(--title-text-color);
 }
 
 /* Site-nav */
 .site-nav .link{
-    color:#212121;
+    color: var(--title-text-color);
 
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--accent-color) ;
 }
 
 /* contacts */
 .contacts .link{
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .contacts .link:hover,
 .contacts .link:focus{
-    color: #2196F3
-    ;
+    color: var(--accent-color);
+
 }
     
 
 /* hero */
 .hero-title{
-    color: #FFFFFF;
-}
-/* section */
-.section-title{
-    color: #212121;
+    color: var(--background-color);
 }
 
-/* fuature */
-.fuature-title{
-    color:  #212121;
+/* Button*/
+.button{
+    color: var(--background-color);
+    background-color: var(--accent-color);
+
+}
+
+/* section */
+.section-title{
+    color: var(--title-text-color);
+}
+
+/* feature */
+.feature-title{
+    color: var(--title-text-color);
+}
+.feature .link{
+    color: var(--title-text-color);
+}
+.button.primary{
+    color: var(--background-color);
+    background-color: var(--accent-bg-color);
+}
+
+/* our team */
+.team-title{
+    color: var(--title-text-color);
+}
+/* адресс */
+
+.adress{
+ color: var(--background-color);
+}
+.adress .link:hover,
+.adress .link:focus{
+    color: var(--background-color);
+}
+.adress .contacts{
+    color: var(--text-adress-color);
 }
