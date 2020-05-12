@@ -16,7 +16,7 @@
   --background-footer: #2F303A;
   --text-adress-color: rgba(255, 255, 255, 0.6);
   --backgraund-second:#F5F4FA;
-
+  
 }
 
   
@@ -25,8 +25,10 @@ body{
 
     background-color: var(--background-color);
     color: var(--primary-text-color);
-   font-family: Roboto, sans-serif;
-   letter-spacing: 3%;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 3%;
+
+
 }
 
 .list{
@@ -35,24 +37,18 @@ body{
     
     
    
-
-
-
-
 .logo-web{
     color: var(--accent-color);
 font-size: 26px;
 line-height: 1.2;
-align-self: left;
-vertical-align: top;
+
 
 }
 .logo-studio{
     color: var(--title-text-color);
 font-size: 26px;
 line-height: 1.2;
-align-self: left;
-vertical: top;
+
 }
 
 /* Site-nav */
@@ -62,16 +58,17 @@ vertical: top;
 
 font-size: 14px;
 line-height: 1.2;
-line-height: 100%;
-align-self: left;
-vertical-align: Top;
 letter-spacing: 2%;
 
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: var(--accent-color) ;
+    color: var(--accent-color);
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 2%;
+
 }
 
 /* contacts */
@@ -81,13 +78,24 @@ letter-spacing: 2%;
 .contacts .link:hover,
 .contacts .link:focus{
     color: var(--accent-color);
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 2%;
 
 }
-    
+  
 
 /* hero */
 .hero-title{
     color: var(--background-color);
+    
+font-weight: 900;
+font-size: 44px;
+line-height: 1,4;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06%;
 }
 
 /* Button*/
@@ -95,24 +103,61 @@ letter-spacing: 2%;
     color: var(--background-color);
     background-color: var(--accent-color);
 
+font-weight: bold;
+font-size: 16px;
+line-height: 1,9;
+/* identical to box height, or 187% */
+
+text-align: center;
+letter-spacing: 0.06e
+
 }
-.button-second{
-    color: var();
 
 
-}
+
+
 /* section */
 .section-title{
     color: var(--title-text-color);
+    
+font-weight: bold;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+
 }
+
+.section-list .title{
+
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    
+  
+}
+
 
 /* feature */
 .feature-title{
     color: var(--title-text-color);
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03;
+
 }
 .feature .link{
     color: var(--title-text-color);
 }
+button{
+    font-family: inherit;
+}
+
 .button.primary{
     color: var(--background-color);
     background-color: var(--accent-bg-color);
@@ -121,7 +166,16 @@ letter-spacing: 2%;
 /* our team */
 .team-title{
     color: var(--title-text-color);
+    
+font-weight: bold;
+font-size: 36px;
+line-height: 1,16;
+text-align: center;
+letter-spacing: 0.03%;
+
 }
+
+
 /* адресс */
 footer{
     color: var(--background-footer);
