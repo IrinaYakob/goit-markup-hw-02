@@ -13,9 +13,12 @@
   --accent-color:#2196F3;
   --background-color:#FFFFFF;
   --accent-bg-color: rgba(47, 48, 58, 0.8);
-  --background-footer-color: #2F303A;
+  --background-footer: #2F303A;
   --text-adress-color: rgba(255, 255, 255, 0.6);
+  --backgraund-second:#F5F4FA;
+
 }
+
   
 
 body{
@@ -70,7 +73,11 @@ body{
     background-color: var(--accent-color);
 
 }
+.button-second{
+    color: var();
 
+
+}
 /* section */
 .section-title{
     color: var(--title-text-color);
@@ -93,7 +100,9 @@ body{
     color: var(--title-text-color);
 }
 /* адресс */
-
+footer{
+    color: var(--background-footer);
+}
 .adress{
  color: var(--background-color);
 }
@@ -103,4 +112,21 @@ body{
 }
 .adress .contacts{
     color: var(--text-adress-color);
+}
+/* сервис*/
+
+
+.service-title{
+    color: var(--title-text-color);
+
+}
+.button-second{
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+
+/*  контент*/
+.content-title{
+    color: var(--title-text-color);
 }
