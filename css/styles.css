@@ -200,6 +200,14 @@ footer{
 }
 
 
+.footer .logo-studio{
+    color: var(--background-color);
+font-size: 26px;
+line-height: 1.2;
+
+}
+
+
 .adress{
  color: var(--background-color);
 
