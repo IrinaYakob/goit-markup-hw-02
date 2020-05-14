@@ -150,8 +150,7 @@ line-height: 1.14;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    l
-
+    
 }
 .feature .link{
     color: var(--title-text-color);
@@ -258,3 +257,5 @@ line-height: 1.9;
 .content-text{
     color: var(--primary-text-color);
 }
+
+
